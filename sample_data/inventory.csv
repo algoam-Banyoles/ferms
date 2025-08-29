@@ -1,0 +1,2 @@
+road_id,pk_from,pk_to,class,urban_flag,pav_type
+R1,0,200,C,0,flexible

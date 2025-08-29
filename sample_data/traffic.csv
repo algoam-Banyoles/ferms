@@ -1,0 +1,2 @@
+road_id,pk_from,pk_to,IMD,pct_heavy,year
+R1,0,200,5000,0.1,2023

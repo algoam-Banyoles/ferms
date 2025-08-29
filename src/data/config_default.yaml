@@ -1,0 +1,12 @@
+weights:
+  state: 0.4
+  traffic: 0.2
+  safety: 0.2
+  bcr: 0.1
+  co2: 0.1
+segmentation:
+  delta: 1.0
+  min_len: 50
+optimizer:
+  budget: 100000
+  use_ortools: true
