@@ -1,3 +1,4 @@
+
 """DataFrame schemas using pandera."""
 
 from __future__ import annotations
@@ -23,3 +24,4 @@ class MeasuresSchema(pa.SchemaModel):
 
     class Config:
         strict = True
+
