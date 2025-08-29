@@ -1,0 +1,3 @@
+treat_id,name,cost_eur_m2,life_years,CO2_kg_m2,apply_rules_json
+1,Overlay,20,10,15,"{}"
+2,Seal,5,5,2,"{}"

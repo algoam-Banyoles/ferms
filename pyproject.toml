@@ -1,5 +1,27 @@
-[tool.ruff]
+[build-system]
+requires = ["setuptools>=67", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pavement-planner"
+version = "0.1.0"
+description = "Aplicació de planificació de conservació de ferms"
+authors = [{name = "Pavement Planner"}]
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+
+[tool.black]
 line-length = 88
 
-[tool.ruff.lint]
+[tool.ruff]
+line-length = 88
 select = ["E", "F", "I"]
+
+[tool.mypy]
+packages = ["src/core"]
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+addopts = "-q"
+

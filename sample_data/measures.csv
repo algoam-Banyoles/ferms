@@ -1,0 +1,7 @@
+road_id,pk,metric,value,ts,source,d_nearest_m,q_flag
+R1,10,IRI,2.0,2023-01-01,survey,0,0
+R1,60,IRI,3.5,2023-01-01,survey,0,0
+R1,160,IRI,2.5,2023-01-01,survey,0,0
+R1,20,SFC,0.6,2023-01-01,survey,0,0
+R1,80,SFC,0.5,2023-01-01,survey,0,0
+R1,170,SFC,0.4,2023-01-01,survey,0,0
